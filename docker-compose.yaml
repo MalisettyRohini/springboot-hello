@@ -1,0 +1,7 @@
+version: '3'
+services:
+    springboot:
+        image: springboot:latest
+        ports:
+            - '8081-80'
+        restart: always
